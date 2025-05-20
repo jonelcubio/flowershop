@@ -1,0 +1,130 @@
+body {
+  background-color: #ffe5ec;
+  font-family: Inter;
+  color: black;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+div, button, a, input {
+  font-family: Inter;
+  color: black
+}
+
+.left-main {
+  width: 30%;
+}
+
+.logo-text {
+  padding-top: 25px;
+  margin-left: -10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.logo-text a {
+  text-decoration: none;
+}
+
+.right-main {
+  margin-left: 30px;
+}
+
+
+.logo-main {
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  padding-left: 25px;
+  padding-bottom: 30px;
+}
+
+.logo-img {
+  width: 70px;
+  align-items: center;
+}
+
+.register-main, .input-con, .button-div {
+  padding-left: 35px;
+}
+
+.register {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin-top: 60px;
+}
+
+.let-get-started {
+  font-size: 15px;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+
+.input-name, .input-email, .input-password {
+  padding: 10px;
+  width: 300px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: black;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+.input-name::placeholder, .input-email::placeholder, .input-password::placeholder {
+  color: black
+}
+
+.button-div {
+  margin-top: 20px;
+}
+
+.sign-up-button, .continue-email {
+  width: 320px;
+  padding: 10px;
+  background-color: #e5989b;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.continue-email {
+  background-color: #FFCDB2;
+  color: black;
+}
+
+.sign-up-button:active, .continue-email:active {
+  opacity: 0.7;
+}
+
+.already-email {
+  padding-left: 65px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.login-span {
+  font-weight: bold;
+}
+
+.right-flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-image-container {
+ margin-left: 10px;
+ margin-right: 10px;
+}
+
+.flex-image {
+  width: 1080px;
+}
