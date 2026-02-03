@@ -1,9 +1,15 @@
+import logo from "../assets/logo.png"
+
 export default function Landing() {
   return(
     <>
     <div className="landing-con">
       <div className="landing-left">
-        Lorem ipsum dolor sit.
+        
+        <div className="left-logo-con">
+          <img src={logo} alt="Flowerly Logo" className="left-logo-img" />
+          <div className="left-logo-title">FLOWERLY</div>
+        </div>
       </div>
 
       <div className="landing-middle">
