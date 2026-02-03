@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+
+.landing-con {
+  @apply  flex flex-row justify-center items-center overflow-y-hidden overflow-x-hidden;
+}
+
+.landing-middle-img {
+  @apply  bg-cover h-screen w-screen justify-end;
+}
+
+.landing-middle {
+  @apply flex grow items-center justify-end shrink;
+}
+
+.landing-left {
+  @apply bg-pink-200 w-3xs px-10 z-10
+}
